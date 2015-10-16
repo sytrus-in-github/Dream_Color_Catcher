@@ -1,0 +1,118 @@
+[Root]
+Most Recent Package=DCC
+
+
+[Package|DCC|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\vb6_projects\Test\package
+
+[Package|DCC|Configure DAO ISAMs]
+Applicable=No
+
+[Package|DCC|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|DCC|Files Found]
+
+[Package|DCC|Files Released]
+
+[Package|DCC|Missing Dependency Information]
+C:\Windows\SysWOW64\MSSTDFMT.DLL=
+
+[Package|DCC|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\MSCOMCTL.OCX=
+
+[Package|DCC|Files Added]
+
+[Package|DCC|Files Removed]
+
+[Package|DCC|Files In Project]
+D:\DreamColorCatcher.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6CHS.DLL=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+C:\Windows\SysWOW64\CMDLGCHS.DLL=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+C:\Windows\SysWOW64\MSCMCCHS.DLL=Yes
+C:\Windows\SysWOW64\RICHTX32.OCX=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=Yes
+C:\Windows\SysWOW64\RCHTXCHS.DLL=Yes
+C:\Windows\SysWOW64\MSCOMCT2.OCX=Yes
+C:\Windows\SysWOW64\MSCC2CHS.DLL=Yes
+C:\Windows\SysWOW64\MSDBRPTR.DLL=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Windows\SysWOW64\DBRPRCHS.DLL=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|DCC|Configure Registry Files]
+Applicable=No
+
+[Package|DCC|Configure Remote Servers]
+Applicable=No
+
+[Package|DCC|Install Locations]
+D:\DreamColorCatcher.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6CHS.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\CMDLGCHS.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCMCCHS.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\RCHTXCHS.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCT2.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCC2CHS.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\DBRPRCHS.DLL=$(WinSysPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|DCC|Configure Shared Files]
+Applicable=Yes
+D:\DreamColorCatcher.exe=No
+
+[Package|DCC|Distribution]
+Type=single
+Size=
+Title=Dream Color Catcher
+
+[Package|DCC|IconGroups]
+Group0=Dream Color Catcher
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|DCC|Dream Color Catcher]
+Icon1=DreamColorCatcher.exe
+Title1=Dream Color Catcher
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|DCC|Package]
+PackageFolder=D:\vb6_projects\Test\package
+ProjectFolder=D:\vb6_projects\Test
+ServerSideCab=
+File1=D:\vb6_projects\Test\package\setup.exe
+File2=D:\vb6_projects\Test\package\Setup.Lst
+File3=D:\vb6_projects\Test\package\DreamColorCatcher.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
